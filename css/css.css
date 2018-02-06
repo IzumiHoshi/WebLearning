@@ -1,0 +1,57 @@
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    background-color: #dae9da;
+}
+
+body {
+    text-align: center;
+}
+
+.tabTitlesContainer {
+    /* margin-left: auto; */
+    margin-right: auto;
+    text-align: center;
+    font-size: small;
+    cursor: hand;
+    width: 300px;
+    border-width: 10px;
+}
+
+.tabTitleUnSelected {
+    background-color: Silver;
+    width: 100px;
+}
+
+.tabTitleUnSelected:hover {
+    background-color: #bde2c6;
+}
+
+.tabTitleSelected {
+    background-color: Gray;
+    width: 100px;
+}
+
+#tabPagesContainer {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    font-size: small;
+    font-size: small;
+    width: 100%;
+}
+
+.tabPageUnSelected {
+    background-color: #bde2c6;
+    display: none;
+}
+
+.tabPageSelected {
+    background-color: #bde2c6;
+    display: block;
+}
+
+.tabPage {
+    height: 80px;
+}
